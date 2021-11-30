@@ -139,18 +139,18 @@ public class Letter
 
     public String A()
     {
-        return  blank + blank + blank + emoji + blank + blank + blank + "\n" +
-                blank + blank + emoji + blank + emoji + blank + blank + "\n" +
-                blank + emoji + emoji + emoji + emoji + emoji + blank + "\n" +
+        return  blank + blank + blank + emoji + "\n" +
+                blank + blank + emoji + blank + emoji + "\n" +
+                blank + emoji + emoji + emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + blank + blank + emoji;
     }
     public String B()
     {
-        return  emoji + emoji + emoji + emoji + emoji + blank + "\n" +
+        return  emoji + emoji + emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + blank + emoji + "\n" +
-                emoji + emoji + emoji + emoji + emoji + blank + "\n" +
+                emoji + emoji + emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + blank + emoji + "\n" +
                 emoji + emoji + emoji + emoji + emoji;
@@ -158,16 +158,16 @@ public class Letter
     public String C()
     {
         return  blank + blank + emoji + emoji + emoji + "\n" +
-                blank + emoji + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                blank + emoji + blank + blank + blank + "\n" +
+                blank + emoji + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
+                blank + emoji + "\n" +
                 blank + blank + emoji + emoji + emoji;
     }
     public String D()
     {
-        return  emoji + emoji + emoji + emoji + emoji + blank + "\n" +
+        return  emoji + emoji + emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + blank + emoji + "\n" +
@@ -177,31 +177,29 @@ public class Letter
     }
     public String E()
     {
-        return  emoji + emoji + emoji + emoji + emoji + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + emoji + emoji + emoji + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + emoji + emoji + emoji + emoji;
+        return  emoji + emoji + emoji + emoji + "\n" +
+                emoji + "\n" +
+                emoji + emoji + emoji + "\n" +
+                emoji + "\n" +
+                emoji + emoji + emoji + emoji;
     }
 
     public String F()
     {
         return  emoji + emoji + emoji + emoji + emoji + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + emoji + emoji + emoji + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
+                emoji + emoji + emoji + emoji + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
                 emoji;
     }
 
     public String G()
     {
         return  emoji + emoji + emoji + emoji + emoji + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
                 emoji + blank + emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + emoji + "\n" +
@@ -221,45 +219,43 @@ public class Letter
     public String I()
     {
         return  emoji + emoji + emoji + emoji + emoji + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
                 emoji + emoji + emoji + emoji + emoji;
     }
 
     public String J()
     {
         return  emoji + emoji + emoji + emoji + emoji + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                emoji + blank + emoji + blank + blank + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                emoji + blank + emoji + "\n" +
                 blank + emoji + emoji;
     }
 
     public String K()
     {
-        return  emoji + blank + blank + emoji + blank + "\n" +
-                emoji + blank + emoji + blank + blank + "\n" +
-                emoji + emoji + blank + blank + blank + "\n" +
-                emoji + emoji + blank + blank + blank + "\n" +
-                emoji + blank + emoji + blank + blank + "\n" +
-                emoji + blank + blank + emoji + blank + "\n" +
-                emoji + blank + blank + blank + emoji;
+        return  emoji + blank + blank + emoji + "\n" +
+                emoji + blank + emoji + "\n" +
+                emoji + emoji + "\n" +
+                emoji + blank + emoji + "\n" +
+                emoji + blank + blank + emoji + "\n";
     }
 
     public String L()
     {
-        return  emoji + blank + blank + "\n" +
-                emoji + blank + blank + "\n" +
-                emoji + blank + blank + "\n" +
-                emoji + blank + blank + "\n" +
-                emoji + blank + blank + "\n" +
-                emoji + blank + blank + "\n" +
-                emoji + emoji + emoji;
+        return  emoji + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
+                emoji + emoji + emoji + emoji;
     }
 
     public String M()
@@ -284,54 +280,49 @@ public class Letter
 
     public String O()
     {
-        return  blank + emoji + emoji + emoji + blank + "\n" +
-                emoji + blank + blank + blank + emoji + "\n" +
-                emoji + blank + blank + blank + emoji + "\n" +
-                emoji + blank + blank + blank + emoji + "\n" +
-                emoji + blank + blank + blank + emoji + "\n" +
-                blank + emoji + emoji + emoji;
+        return  blank + emoji + emoji + "\n" +
+                emoji + blank + blank + emoji + "\n" +
+                emoji + blank + blank + emoji + "\n" +
+                emoji + blank + blank + emoji + "\n" +
+                blank + emoji + emoji;
     }
 
     public String P()
     {
-        return  emoji + emoji + emoji + blank + "\n" +
+        return  emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + emoji + "\n" +
                 emoji + blank + blank + emoji + "\n" +
-                emoji + emoji + emoji + blank + "\n" +
-                emoji + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + "\n" +
+                emoji + emoji + emoji + "\n" +
+                emoji + "\n" +
+                emoji + "\n" +
                 emoji;
     }
 
     public String Q()
     {
-        return  blank + emoji + emoji + emoji + blank + "\n" +
-                emoji + blank + blank + blank + emoji + "\n" +
+        return  blank + emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + blank + emoji + "\n" +
                 emoji + blank + emoji + blank + emoji + "\n" +
                 emoji + blank + blank + emoji + emoji + "\n" +
-                blank + emoji + emoji + emoji + blank + "\n" +
                 blank + blank + blank + blank + emoji;
     }
 
     public String R()
     {
-        return  emoji + emoji + emoji + blank + "\n" +
+        return  emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + emoji + "\n" +
-                emoji + blank + blank + emoji + "\n" +
-                emoji + emoji + emoji + blank + "\n" +
-                emoji + blank + blank + emoji + "\n" +
+                emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + emoji + "\n" +
                 emoji + blank + blank + emoji;
     }
 
     public String S()
     {
-        return  blank + emoji + emoji + emoji + blank + "\n" +
+        return  blank + emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + blank + emoji + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                blank + emoji + emoji + blank + blank + "\n" +
-                blank + blank + blank + emoji + blank + "\n" +
+                emoji + "\n" +
+                blank + emoji + emoji + "\n" +
+                blank + blank + blank + emoji + "\n" +
                 blank + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + emoji + "\n" +
                 blank + emoji + emoji + emoji;
@@ -340,11 +331,8 @@ public class Letter
     public String T()
     {
         return  emoji + emoji + emoji + emoji + emoji + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
                 blank + blank + emoji;
     }
 
@@ -362,8 +350,7 @@ public class Letter
         return
                 emoji + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + emoji + "\n" +
-                emoji + blank + blank + blank + emoji + "\n" +
-                blank + emoji + blank + emoji + blank + "\n" +
+                blank + emoji + blank + emoji + "\n" +
                 blank + blank + emoji;
     }
 
@@ -373,7 +360,7 @@ public class Letter
             emoji + blank + blank + blank + blank + blank + blank + blank + emoji + "\n" +
             emoji + blank + blank + blank + emoji + blank + blank + blank + emoji + "\n" +
             emoji + blank + blank + blank + emoji + blank + blank + blank + emoji + "\n" +
-            blank + emoji + blank + emoji + blank + emoji + blank + emoji + blank + "\n" +
+            blank + emoji + blank + emoji + blank + emoji + blank + emoji + "\n" +
             blank + blank + emoji + blank + blank + blank + emoji;
     }
 
@@ -381,9 +368,9 @@ public class Letter
     {
         return  emoji + blank + blank + blank + emoji + "\n" +
                 emoji + emoji + blank + emoji + emoji + "\n" +
-                blank + emoji + emoji + emoji + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + emoji + emoji + emoji + blank + "\n" +
+                blank + emoji + emoji + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + emoji + emoji + emoji + "\n" +
                 emoji + blank + blank + blank + emoji + "\n" +
                 emoji + blank + blank + blank + emoji;
     }
@@ -392,21 +379,20 @@ public class Letter
     {
         return  emoji + blank + blank + blank + emoji + "\n" +
                 emoji + emoji + blank + emoji + emoji + "\n" +
-                blank + emoji + emoji + emoji + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
+                blank + emoji + emoji + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
                 blank + blank + emoji;
     }
 
     public String Z()
     {
-        return  emoji + emoji + emoji + emoji + emoji + "\n" +
-                blank + blank + blank + blank + emoji + "\n" +
-                blank + blank + blank + emoji + blank + "\n" +
-                blank + blank + emoji + blank + blank + "\n" +
-                blank + emoji + blank + blank + blank + "\n" +
-                emoji + blank + blank + blank + blank + "\n" +
-                emoji + emoji + emoji + emoji + emoji;
+        return  emoji + emoji + emoji + emoji + "\n" +
+                blank + blank + blank + emoji + "\n" +
+                blank + blank + emoji + "\n" +
+                blank + emoji + "\n" +
+                emoji + "\n" +
+                emoji + emoji + emoji + emoji;
     }
 }

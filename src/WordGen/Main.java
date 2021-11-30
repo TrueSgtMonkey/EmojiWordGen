@@ -30,9 +30,9 @@ public class Main
             //getting data from user (emoji, blank, and word)
             System.out.print("emoji: ");
             emoji = scan.nextLine();
-            System.out.print("blank: ");
+            System.out.print("# chars: " + emoji.length() + "\nblank: ");
             blank = scan.nextLine();
-            System.out.print("word: ");
+            System.out.print("# blanks: " + blank.length() + "\nword: ");
             word = scan.nextLine();
 
             //converting word into characters

@@ -20,7 +20,7 @@ public class Word
     {
         for(int i = 0; i < word.length(); i++)
         {
-            System.out.println(letter.getLetter(word.charAt(i) - 65));
+            System.out.println(letter.getLetter(word.charAt(i) - 65) + "\n");
         }
     }
 
